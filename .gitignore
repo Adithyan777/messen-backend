@@ -36,6 +36,9 @@ vendor/
 .DS_Store
 Thumbs.db
 
+#
+try.js
+
 # Dependency lock files
 package-lock.json
 yarn.lock
