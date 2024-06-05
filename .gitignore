@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+lib/
+bower_components/
+vendor/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.sass-cache/
+.cache/
+.project
+.settings/
+.tmproj
+*.esproj
+*.idea
+*.nbproject
+*.xcodeproj
+*.xcworkspace/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.js
+*.map
+*.tgz
+
+# Dependency lock files
+package-lock.json
+yarn.lock
