@@ -36,11 +36,6 @@ vendor/
 .DS_Store
 Thumbs.db
 
-# Compiled files
-*.js
-*.map
-*.tgz
-
 # Dependency lock files
 package-lock.json
 yarn.lock
