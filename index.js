@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const bodyParser = require('body-parser');
 const port = 8080;
 const cors = require('cors');
 const {convertToBaseUnits,convertToSelectedUnits} = require('./middlewares/flowCoefficent');
@@ -19,7 +20,12 @@ function roundToSignificantFigures(value, n) {
 }
 
 app.use(cors());
-app.use(express.json());
+
+// Parse JSON bodies
+app.use(bodyParser.json());
+
+// Parse URL-encoded bodies
+app.use(bodyParser.urlencoded({ extended: true }));
 
   
 app.get('/', (req, res) => {
